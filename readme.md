@@ -8,7 +8,7 @@ Makes a **http** get request using the _blank identifier_ to ignore exceptions.
 Simple code that declares a variable that is never used, its asign the var to a _blank identifier_ to avoid `declared and unused` error.
 
 ## by_ref_and_by_val
-A program that calls two functions, one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses *pointers* to pass **_by ref_**.
+A program that calls two functions, one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
 
 ## constants
 Program that declares and use some constants, it also use the _`iota`_ value.
@@ -40,6 +40,28 @@ Uses a for to generate a numerical secuences and display every generated number 
 
 ## for_and_module_op
 Code example that implements a for to generate a counter and a conditional (_if_) to clasificate generated numbers in **odd** and **even** using a module operation `x % 2`.
+
+## functions
+### anon_function
+A simple code that shows how to declare and execute a anonymous function.
+
+### callback
+Example of a function call that needs a callback function to do certain things.
+
+### returns
+Example of three types of function's _returns_
+- **helloWorld**: A simple (and _traditionsl_) single value return
+- **greet**: A named var return
+- **names**: A multiple values return
+
+### defer
+Code that uses the word `defer` to make a function call be executed at the end of the current function.
+
+### variadic_args
+Example of a function call that passes variadic arguments using  the variadic technique.
+
+### variadic_params
+Example of a function that can recive a unlimited number of arguments and stores in a collection, it's called variadic function.
 
 ## inner_functions
 Program with inner functions and functions that returns functions as result. Something like _functions inception_.
