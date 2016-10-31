@@ -21,9 +21,20 @@ Code example that implements the uses for the `for` statement.
 - Like `do` for infinite loops
 - With the `continue` keyword
 
+## data_structures
+### array_and_slice
+Example with an _**Array**_ and a _**Slice**_ and the differences between these types.
+
+### slice_example
+How to declare a slice and append elements to it.
+
+### maps
+Example code of maps declaration and manipulation.
+
+### struct
+
 ## fmt_verbs
 Uses some format verbs to display a number.
-
 - Deciamal
 - Binary
 - Char
@@ -32,7 +43,6 @@ Uses some format verbs to display a number.
 
 ## for_and_format_examples
 Uses a for to generate a numerical secuences and display every generated number in three formats.
-
 - Decimal `%d`
 - Binary `%b`
 - Hex `%#X`
