@@ -12,6 +12,12 @@ func doTheMap(aMap map[int]string) {
 	}
 }
 
+func printTheMap(aMap map[int]string) {
+	for key, val := range aMap {
+		fmt.Println(key, " - ", val)
+	}
+}
+
 func main() {
 	// Declaring a map
 	// var myMap = map[string]string{} // or
@@ -35,8 +41,9 @@ func main() {
 		5: "e",
 	}
 
-	fmt.Println(theMap)
+	printTheMap(theMap)
 	// Because Maps and Slices are Referece Types, don't need to be passed byRef.
 	doTheMap(theMap)
-	fmt.Println(theMap)
+	printTheMap(theMap)
+	doTheMap(theMap)
 }
