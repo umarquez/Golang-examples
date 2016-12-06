@@ -8,7 +8,7 @@ Makes a **http** get request using the _blank identifier_ to ignore exceptions.
 Simple code that declares a variable that is never used, its asign the var to a _blank identifier_ to avoid `declared and unused` error.
 
 ## by_ref_and_by_val
-A program that calls two functions, one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
+A program that calls two functions,   one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
 
 ## constants
 Program that declares and use some constants, it also use the _`iota`_ value.
@@ -32,6 +32,7 @@ How to declare a slice and append elements to it.
 Example code of maps declaration and manipulation.
 
 ### struct
+This code shows how to create a custom type based on **struct** type, how to use it in a var declaration and how to change its field's values.
 
 ## fmt_verbs
 Uses some format verbs to display a number.
@@ -96,6 +97,9 @@ Example code using switch statements.
 
 ## switch_on_types
 An example of how to implement a type based switch function.
+
+## types
+A program that defines twoo custom types using **struct**, one inside the other; both of them has a method with the same name that the code calls for each type, it also contains a function that receive a pointer to a custom type.
 
 ## variables
 Example about the both ways to declare a variable.
