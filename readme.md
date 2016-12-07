@@ -77,6 +77,23 @@ Example of a function that can recive a unlimited number of arguments and stores
 ## inner_functions
 Program with inner functions and functions that returns functions as result. Something like _functions inception_.
 
+## JSON
+Working with JSON
+
+### json_decoder
+How to convert a streammed JSON text to an object.
+**Note:** Use this for reading JSON through the web.
+
+### json_encoder
+How to convert an object to a JSON string to write it on a stream.
+**Note:** Use this for sending Objects as JSON through the web.
+
+### json_to_struct_unmarshal
+Having a string with JSON content, this code will assign its values to an instance of a type that has the same **exported** fields using `json.unmarshal()` method.
+
+### struct_to_json_marshal
+Having a custom class object(_struct_), this code will convert it to a **JSON** formated string using `json.Marshal()` method.
+
 ## memmory_address
 A wey to get var's memmory address, good introduction to pointers.
 
