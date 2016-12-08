@@ -22,6 +22,8 @@ Code example that implements the uses for the `for` statement.
 - With the `continue` keyword
 
 ## data_structures
+Basic data structuresand how to deal with.
+
 ### array_and_slice
 Example with an _**Array**_ and a _**Slice**_ and the differences between these types.
 
@@ -53,6 +55,8 @@ Uses a for to generate a numerical secuences and display every generated number 
 Code example that implements a for to generate a counter and a conditional (_if_) to clasificate generated numbers in **odd** and **even** using a module operation `x % 2`.
 
 ## functions
+Working with functions.
+
 ### anon_function
 A simple code that shows how to declare and execute a anonymous function.
 
@@ -76,6 +80,12 @@ Example of a function that can recive a unlimited number of arguments and stores
 
 ## inner_functions
 Program with inner functions and functions that returns functions as result. Something like _functions inception_.
+
+## Interfaces
+Some interfaces examples.
+
+### simple_interface
+Code that shows how to declare an interface and work with it.
 
 ## JSON
 Working with JSON
