@@ -1,4 +1,4 @@
-# Go (_Golang_) code examples
+# Go (_Golang_) code examples and notes.
 
 ## blank_identifier
 ### http_get
@@ -86,6 +86,23 @@ Some interfaces examples.
 
 ### simple_interface
 Code that shows how to declare an interface and work with it.
+
+### sort_exercise
+Requirements:
+
+```
+Use https://godoc.org/sort to sortthe following:
+
+(1)
+type people []string
+studyGroup := people{"Zeno", "John", "Al", "Jenny"}
+
+(2)
+s := []string{"Zeno", "John", "Al", "Jenny"}
+
+(3)
+n := []int{7, 4, 8, 2, 9, 19, 12, 32, 3}
+```
 
 ## JSON
 Working with JSON
