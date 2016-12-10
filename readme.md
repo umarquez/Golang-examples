@@ -84,6 +84,9 @@ Program with inner functions and functions that returns functions as result. Som
 ## Interfaces
 Some interfaces examples.
 
+### empty_interface
+How to use empty interface to create a function that could manage any type of data/object.
+
 ### simple_interface
 Code that shows how to declare an interface and work with it.
 
