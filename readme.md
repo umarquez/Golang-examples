@@ -22,7 +22,7 @@ Code example that implements the uses for the `for` statement.
 - With the `continue` keyword
 
 ## Convertion and Assertion
-**Convertion**: Transform a value of certain type to another.
+**Convertion**: Transform a value of certain type to another (casting or parsing in other languajes).
 **Assertion**: Treats a value of one type as if it were another, without converting it.
 
 ### assertion_ex
