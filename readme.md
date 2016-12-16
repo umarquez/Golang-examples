@@ -21,6 +21,16 @@ Code example that implements the uses for the `for` statement.
 - Like `do` for infinite loops
 - With the `continue` keyword
 
+## Convertion and Assertion
+**Convertion**: Transform a value of certain type to another.
+**Assertion**: Treats a value of one type as if it were another, without converting it.
+
+### assertion_ex
+Code that shows how to use assertion (only works with interfaces).
+
+### convertion_ex
+Code example that shows how to convert a typed value to another using ***strconv*** library.
+
 ## data_structures
 Basic data structuresand how to deal with.
 
