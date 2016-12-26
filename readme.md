@@ -10,6 +10,17 @@ Simple code that declares a variable that is never used, its asign the var to a 
 ## by_ref_and_by_val
 A program that calls two functions,   one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
 
+## Concurrency & Parallelism
+### concurrency
+> Is the composition of independently executing processes (_dealing with a lot of things at once_).
+
+An example code that implements concurrency using the  **go** keyword for creating _goroutine_ and a `WaitGroup` just for keeping the main thread alive until all other threads ends.
+
+### parallelism
+> Is the simulraneously execution of (possibly related) computations (_doing a lot of things at once_).
+
+An example code that shows how to implements parallelism using `runtime.GOMAXPROCS()` function inside the _init()_ function.
+
 ## constants
 Program that declares and use some constants, it also use the _`iota`_ value.
 > **iota:** a small amount of something
