@@ -11,6 +11,9 @@ Simple code that declares a variable that is never used, its asign the var to a 
 A program that calls two functions,   one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
 
 ## Concurrency & Parallelism
+### Atomicity
+Provides the capability to access a var only one process at a time.
+
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
 
@@ -20,6 +23,9 @@ An example code that implements concurrency using the  **go** keyword for creati
 > Is the simulraneously execution of (possibly related) computations (_doing a lot of things at once_).
 
 An example code that shows how to implements parallelism using `runtime.GOMAXPROCS()` function inside the _init()_ function.
+
+### rc_mutex
+Example of a rance condition code and mutex for preventing unwanted behavio r.
 
 ## constants
 Program that declares and use some constants, it also use the _`iota`_ value.
