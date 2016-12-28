@@ -14,8 +14,14 @@ A program that calls two functions,   one recive arguments **_by val_** and the 
 ### atomicity
 Provides the capability to access a var only one process at a time. This code uses an atomic function to modify a variable and avoiding simultaneous access to it.
 
-### channels
+### Channels
 Shows how to share values through channels between two processes.
+
+#### channels_and_waitgroup
+How to use channels and WaitGroups in the same program.
+
+#### pure_channels
+How to manage multiple threads using the same channel with no other library.
 
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
