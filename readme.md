@@ -17,11 +17,28 @@ Provides the capability to access a var only one process at a time. This code us
 ### Channels
 Shows how to share values through channels between two processes.
 
+> The optional <- operator specifies the channel direction, send or receive. If no direction is given, the channel is bidirectional. A channel may be constrained only to send or only to receive by conversion or assignment.
+```
+chan T          // can be used to send and receive values of type T
+chan<- float64  // can only be used to send float64s
+<-chan int      // can only be used to receive ints
+```
+**Source:** _ https://golang.org/ref/spec#Channel_types _
+
 #### channels_and_waitgroup
 How to use channels and WaitGroups in the same program.
 
 #### pure_channels
 How to manage multiple threads using the same channel with no other library.
+
+#### pipeline_pattern
+> **What is a pipeline?**
+There's no formal definition of a pipeline in Go; it's just one of many kinds of concurrent programs. Informally, a pipeline is a series of stages connected by channels, where each stage is a group of goroutines running the same function. In each stage, the goroutines:
+- receive values from upstream via inbound channels.
+- perform some function on that data, usually producing new values.
+- send values downstream via outbound channels.
+Each stage has any number of inbound and outbound channels, except the - first and last stages, which have only outbound or inbound channels, respectively. The first stage is sometimes called the source or producer; the last stage, the sink or consumer.
+**Source:** _ https://blog.golang.org/pipelines _
 
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
