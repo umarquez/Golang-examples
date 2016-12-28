@@ -23,7 +23,7 @@ chan T          // can be used to send and receive values of type T
 chan<- float64  // can only be used to send float64s
 <-chan int      // can only be used to receive ints
 ```
-**Source:** _ https://golang.org/ref/spec#Channel_types _
+**Source:** *https://golang.org/ref/spec#Channel_types*
 
 #### channels_and_waitgroup
 How to use channels and WaitGroups in the same program.
@@ -40,7 +40,7 @@ There's no formal definition of a pipeline in Go; it's just one of many kinds of
 - send values downstream via outbound channels.
 >
 Each stage has any number of inbound and outbound channels, except the - first and last stages, which have only outbound or inbound channels, respectively. The first stage is sometimes called the source or producer; the last stage, the sink or consumer.
-**Source:** _ https://blog.golang.org/pipelines _
+**Source:** *https://blog.golang.org/pipelines*
 
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
