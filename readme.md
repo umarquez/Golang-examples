@@ -11,8 +11,11 @@ Simple code that declares a variable that is never used, its asign the var to a 
 A program that calls two functions,   one recive arguments **_by val_** and the other recive arguments **_by ref_**. It uses **pointers** to pass **_by ref_**.
 
 ## Concurrency & Parallelism
-### Atomicity
-Provides the capability to access a var only one process at a time.
+### atomicity
+Provides the capability to access a var only one process at a time. This code uses an atomic function to modify a variable and avoiding simultaneous access to it.
+
+### channels
+Shows how to share values through channels between two processes.
 
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
@@ -20,7 +23,7 @@ Provides the capability to access a var only one process at a time.
 An example code that implements concurrency using the  **go** keyword for creating _goroutine_ and a `WaitGroup` just for keeping the main thread alive until all other threads ends.
 
 ### parallelism
-> Is the simulraneously execution of (possibly related) computations (_doing a lot of things at once_).
+> Is the simultaneously execution of (possibly related) computations (_doing a lot of things at once_).
 
 An example code that shows how to implements parallelism using `runtime.GOMAXPROCS()` function inside the _init()_ function.
 
