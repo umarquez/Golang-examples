@@ -34,6 +34,7 @@ How to manage multiple threads using the same channel with no other library.
 #### pipeline_pattern
 >
 **What is a pipeline?**
+>
 There's no formal definition of a pipeline in Go; it's just one of many kinds of concurrent programs. Informally, a pipeline is a series of stages connected by channels, where each stage is a group of goroutines running the same function. In each stage, the goroutin.
 >
 - receive values from upstream via inbound channels.
