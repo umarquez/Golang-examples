@@ -28,9 +28,6 @@ chan<- float64  // can only be used to send float64s
 #### channels_and_waitgroup
 How to use channels and WaitGroups in the same program.
 
-#### pure_channels
-How to manage multiple threads using the same channel with no other library.
-
 #### pipeline_pattern
 >
 **What is a pipeline?**
@@ -44,6 +41,11 @@ There's no formal definition of a pipeline in Go; it's just one of many kinds of
 Each stage has any number of inbound and outbound channels, except the - first and last stages, which have only outbound or inbound channels, respectively. The first stage is sometimes called the source or producer; the last stage, the sink or consumer.
 >
 **Source:** *https://blog.golang.org/pipelines*
+
+An example of pipeline comunication pattern.
+
+#### pure_channels
+How to manage multiple threads using the same channel with no other library.
 
 ### concurrency
 > Is the composition of independently executing processes (_dealing with a lot of things at once_).
